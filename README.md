@@ -18,5 +18,8 @@ O Ecoleta é um marketplace que ajuda pessoas a encontrarem pontos de coleta de 
 
 Você precisará ter apenas o NodeJS instalado na sua máquina, e após isso, clonar este repositório:
 
+> $ git clone https://github.com/mauriani/NLW-01-Projeto-Ecoleta
 
+Depois disso acesse a pasta da aula que você deseja e instale as dependências executando o seguinte comando:
 
+> $ yarn install # ou npm install
