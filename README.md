@@ -20,6 +20,11 @@ Você precisará ter apenas o NodeJS instalado na sua máquina, e após isso, cl
 
 > $ git clone https://github.com/mauriani/NLW-01-Projeto-Ecoleta
 
-Depois disso acesse a pasta da aula que você deseja e instale as dependências executando o seguinte comando:
+Depois disso acesse a pasta de cada projeto exemplo: cd server e após isso dê o comando abaixo:
 
 > $ yarn install # ou npm install
+
+Para executar os projetos:
+
+- server => npm run dev
+- web => npm run start
