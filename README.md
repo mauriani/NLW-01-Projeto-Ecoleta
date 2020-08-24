@@ -28,3 +28,4 @@ Para executar os projetos:
 
 - server => npm run dev
 - web => npm run start
+- mobile => lembre-se de ter o expo em seu celular caso deseje emular nele ou instale um em sua máquina.
