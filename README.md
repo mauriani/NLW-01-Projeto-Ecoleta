@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/rocketseat-education/nlw-01-ominstack/master/.github/ecoleta.png">
 
-<h3>Projeto<h3>
+<h3>Projeto</h3>
 
 O Ecoleta é um marketplace que ajuda pessoas a encontrarem pontos de coleta de resíduos de forma eficiente, esse foi o primeiro projeto da semana Level Week da Rocketseat.
 
