@@ -64,8 +64,6 @@ const Home = () => {
   }, [selectUf]);
 
   // function que controla o clique da minha UF
-  // function que controla o clique da minha UF
-  // function que controla o clique da minha UF
   function handleSelectUf(event: { target: { value: any } }) {
     const uf = event.target.value;
     console.log(uf);
@@ -101,11 +99,11 @@ const Home = () => {
             mode="dialog"
             style={styles.input}
             selectedValue={selectUf}
-            onValueChange={handleSelectUf}
+            onValueChange={setSelectUf}
           >
             <Picker.Item label="Selecione a UF" />
-            {ufs.map((uf, index) => (
-              <Picker.Item key={index} label={uf} />
+            {ufs.map((uf) => (
+              <Picker.Item key={uf} label={uf} value={uf} />
             ))}
           </Picker>
         </View>
@@ -115,11 +113,11 @@ const Home = () => {
             mode="dialog"
             style={styles.input}
             selectedValue={selectCity}
-            onValueChange={handleSelectCity}
+            onValueChange={setSelectCity}
           >
-            <Picker.Item label="Selecione a cidade" value={"0"} />
-            {cities.map((city, index) => (
-              <Picker.Item key={index} label={city} value={"5"} />
+            <Picker.Item label="Selecione a cidade" />
+            {cities.map((city) => (
+              <Picker.Item key={city} label={city} value={city} />
             ))}
           </Picker>
         </View>
