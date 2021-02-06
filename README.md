@@ -34,20 +34,17 @@ Após o download do repositório em sua máquina basta realizar os seguintes com
 // acessar a basta do projeto
 cd server
 // instalar todas as dependencias do projeto
-yarn install
-npm install
+yarn install ou npm install
 
 // acessar a basta do projeto
 cd web
 // instalar todas as dependencias do projeto
-yarn install
-npm install
+yarn install ou npm install
 
 // acessar a basta do projeto
 cd mobile
 // instalar todas as dependencias do projeto
-yarn install
-npm install
+yarn install ou npm install
 
 ```
 
