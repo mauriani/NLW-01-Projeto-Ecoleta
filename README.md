@@ -1,32 +1,68 @@
-<h1>NLW-01-Projeto-Ecoleta</h1>
+Next Level Week 01 - Projeto Ecoleta
 
 <img src="https://raw.githubusercontent.com/rocketseat-education/nlw-01-ominstack/master/.github/ecoleta.png">
 
-<h3>Projeto</h3>
+## Sobre o projeto
 
 O Ecoleta é um marketplace que ajuda pessoas a encontrarem pontos de coleta de resíduos de forma eficiente, esse foi o primeiro projeto da semana Level Week da Rocketseat.
 
-<h3>:computer: Tecnologias usadas</h3>
-<uL>
-  <li>NodeJs</li>
-  <li>React</li>
-  <li>React-Native</li>
-  <li>Expo</li>
-  <li>TypeScript</li>
-</ul>
+## 🚀 Tecnologias usadas
 
-<h3>Instalação</h3>
+- NodesJs
+- ReactJS
+- React Native
+- Expo
 
-Você precisará ter apenas o NodeJS instalado na sua máquina, e após isso, clonar este repositório:
+## 💻Instalação
 
-> $ git clone https://github.com/mauriani/NLW-01-Projeto-Ecoleta
+Antes de iniciar você precisar ter o ambiente configurado.
 
-Depois disso acesse a pasta de cada projeto exemplo: cd server e após isso dê o comando abaixo:
+### Pré requisitos
 
-> $ yarn install # ou npm install
+- Nodejs
+- React
+- React Native
+- Expo
 
-Para executar os projetos:
+```jsx
+git clone https://github.com/mauriani/NLW-01-Projeto-Ecoleta
+```
 
-- server => npm run dev
-- web => npm run start
-- mobile => lembre-se de ter o expo em seu celular caso deseje emular nele ou instale um em sua máquina. Comandos: yarn android or yarn ios
+Após o download do repositório em sua máquina basta realizar os seguintes comandos:
+
+```jsx
+// acessar a basta do projeto
+cd server
+// instalar todas as dependencias do projeto
+yarn install
+npm install
+
+// acessar a basta do projeto
+cd web
+// instalar todas as dependencias do projeto
+yarn install
+npm install
+
+// acessar a basta do projeto
+cd mobile
+// instalar todas as dependencias do projeto
+yarn install
+npm install
+
+```
+
+## Executando Projeto
+
+```jsx
+// start na api
+cd server
+npm run dev
+
+// start na versão web
+cd web
+npm run start
+
+// para executa você pode usar o expo instalado no seu celular
+cd mobile
+yarn android ou yarn ios
+```
